@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Assignment 2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_search">Search</string>
+    <string name="menu_list">All Breweries</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="brewery_name">Name:</string>
+    <string name="brewery_address">Address:</string>
+    <string name="brewery_phone">Phone:</string>
+    <string name="brewery_website">Website:</string>
+    <string name="brewery_type">Brewery Type:</string>
+</resources>
