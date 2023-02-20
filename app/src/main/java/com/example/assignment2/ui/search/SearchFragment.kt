@@ -54,11 +54,11 @@ class SearchFragment : Fragment() {
 
     fun fillCard(data: BreweryItem?) {
         binding.apply {
-            tvName.text = data?.name
-            tvAddress.text = data?.address2
-            tvBreweryType.text = data?.breweryType
-            tvPhone.text = data?.phone
-            tvWebsite.text = data?.websiteUrl
+            tvName.text = "${tvName.text} ${data?.name}"
+            tvAddress.text = "${tvAddress.text} ${data?.address2}"
+            tvBreweryType.text = "${tvBreweryType.text} ${data?.breweryType}"
+            tvPhone.text = "${tvPhone.text} ${data?.phone}"
+            tvWebsite.text = "${tvWebsite.text} ${data?.websiteUrl}"
         }
     }
 
